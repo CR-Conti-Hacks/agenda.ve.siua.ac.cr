@@ -1,0 +1,170 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('roboto/Roboto-Light.eot');
+    src: url('roboto/Roboto-Light.eot?#iefix') format('embedded-opentype'),
+        url('roboto/Roboto-Light.woff2') format('woff2'),
+        url('roboto/Roboto-Light.woff') format('woff'),
+        url('roboto/Roboto-Light.ttf') format('truetype'),
+        url('roboto/Roboto-Light.svg#Roboto-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Comfortaa';
+    src: url('comfortaa/Comfortaa-Regular.eot');
+    src: url('comfortaa/Comfortaa-Regular.eot?#iefix') format('embedded-opentype'),
+        url('comfortaa/Comfortaa-Regular.woff2') format('woff2'),
+        url('comfortaa/Comfortaa-Regular.woff') format('woff'),
+        url('comfortaa/Comfortaa-Regular.ttf') format('truetype'),
+        url('comfortaa/Comfortaa-Regular.svg#Comfortaa-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Biko';
+    src: url('Biko.eot');
+    src: url('Biko.eot?#iefix') format('embedded-opentype'),
+        url('Biko.woff2') format('woff2'),
+        url('Biko.woff') format('woff'),
+        url('Biko.ttf') format('truetype'),
+        url('Biko.svg#Biko') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body,html {
+    color: #333;
+    font-family: "Biko",Arial,"Arial Unicode MS",Verdana,sans-serif;
+	  background-color: #FFF;
+    font-size: 12px;
+}
+table#banner {
+	border: none !important;
+}
+
+
+#banner td, #banner th, #banner tr{
+	border: none;
+}
+
+#banner a:link {
+    text-decoration: none !important;
+}
+
+#div_description{
+	margin-top: 10px;
+}
+
+#add_room div{
+	margin-bottom: 5px;
+}
+
+.form_general div{
+	margin-bottom: 5px;
+}
+
+.form_general select, .form_general textarea, .form_general input,
+.form_admin select, .form_admin textarea, .form_admin input,
+#area_select,
+#rooms_table_filter input,
+#rooms_table_length select,
+#datepicker,
+.ui-datepicker-title select
+{
+	background-color: #E5E6E8;
+	border: 1px solid #BEC1C4;
+	padding: 4px;
+	color:#333;
+	border-radius: 3px;
+}
+
+.form_general select:focus, .form_general textarea:focus, .form_general input:focus,
+.form_admin select:focus, .form_admin textarea:focus, .form_admin input:focus
+
+{
+	background-color: #97D3EF;
+	border: 1px solid #60B7E0;
+	padding: 4px;
+	color:#333;
+	box-shadow: 0 10px 20px rgba(0,0,0,0.25), 0 8px 8px rgba(0,0,0,0.22);
+}
+
+.submit,input[type="submit"]{
+	background-color: #D88E0F !important;
+	color: #FFF !important;
+	border: none !important;
+	padding: 8px !important;
+	line-height: 100%;
+	border-radius: 5px;
+	font-size:.9rem !important;
+}
+
+.submit:active, .submit:focus{
+	background-color: #D66B0E !important;
+}
+
+h2{
+	font-size: 2em;
+	color: #2667C9;
+}
+
+#del_yes{
+	color: red;
+	font-size: 2rem !important;
+	text-decoration: none !important;
+}
+
+#del_no{
+	color: green;
+	font-size: 2rem !important;
+	text-decoration: none !important;
+}
+
+#del_room_confirm p{
+	font-size: 3rem;
+}
+
+#simple a{
+	text-decoration: none;
+}
+
+#day_main th a{
+	text-decoration: none;
+	font-size: 1.1em;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+}
+
+.celldiv.slots1 a{
+	text-decoration: none;
+}
+
+.calendar thead{
+	background-color: #2667C9;
+
+}
+
+.calendar thead a, .calendar th{
+	color: #FFF;
+	text-decoration: none;
+
+}
+
+#dwm h2{
+	color: #333;
+	font-size: 1.2rem;
+}
+
+.date_now a, .date_after a, .date_before a{
+	text-decoration: none !important;
+}
+
+.pie_pagina{
+	clear: both;
+	float: left;
+	position: relative;
+	bottom: 0;
+	display:  inline;
+	width: 100%;
+	border: none;
+}

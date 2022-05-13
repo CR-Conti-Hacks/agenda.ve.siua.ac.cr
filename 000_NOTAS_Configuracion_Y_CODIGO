@@ -1,0 +1,26 @@
+/********************************************************************/
+/*********** Archivos con modificaciones              ***************/
+/********************************************************************/
+
+1-config.inc.php
+2-systemdefaults.inc.php
+3-Agregar carpeta "css/roboto"
+4-Agregar archivo "css/estilo_ugit.css"
+5-Modificar "Themes/default/styling.inc"
+6-Modificar "areadefaults.inc.php"
+7-Modificar "css/mrbs.css.php"
+8-Modificar: "function_table.inc"
+9-Modificar "mrbs_sql.inc"  (Agregar campos de la BD)
+10-Modificar "Tehemes/default/footer.inc"
+11-copiar imagens de "jquery/ui/css/sunny/images"
+12-Modificar "jquery/ui/css/sunny/jquery-ui.theme.min.css"
+
+
+
+
+/********************************************************************/
+/***********      Agregar nuevas opciones             ***************/
+/********************************************************************/
+config.inc.php
+systemdefaults.inc.php
+Themes/default/styling.inc
